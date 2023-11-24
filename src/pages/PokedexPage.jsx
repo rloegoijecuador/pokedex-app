@@ -40,7 +40,7 @@ const PokedexPage = () => {
   return (
     <div>
       <p>
-        welcome <span>{trainerName}</span> ,hace you can faborite pokemon
+        welcome <span>{trainerName}</span> , here choose yuor favorit pokemons 
       </p>
       <form onSubmit={handleSubmit}>
         <input ref={inputSearch} type="text" />

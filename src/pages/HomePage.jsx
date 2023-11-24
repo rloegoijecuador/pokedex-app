@@ -17,10 +17,10 @@ const HomePage = () => {
     <div>
       <h1>pokedex</h1>
       <h2>hi trainer</h2>
-      <p>for star say your name</p>
+      <p>for init say your name</p>
       <form onSubmit={handleSubmit}>
         <input ref={inputName} type="text" />
-        <button>catch the all items</button>
+        <button>chose anywhere pokemom</button>
       </form>
     </div>
   );
