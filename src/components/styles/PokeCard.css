@@ -1,0 +1,61 @@
+.pokekar{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1em;
+    border: 1em solid black;
+}
+.pokekard_header{
+    background-color:aqua;    
+    aspect-ratio: 2;
+    position: relative;
+}
+.pokekard_image{
+    width: 60%;
+    left: 50%;
+    transform: translateX(50%);
+    top: 1.5em;
+}
+.pokekard_body{
+    padding: 3.5em 1em 2em;
+}
+.pokekard_name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.4em;
+}
+.pokekard_types{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.pokekard_typesname{
+    text-transform: capitalize;
+}
+.pokekard_typesname:nth-child(2)::before{
+    content: '/';
+    padding-right: 1em;
+
+}
+.pokekard_hr{
+    margin-bottom: 1em;
+    border: 1px solid yellow;
+}
+.pokekard_stats{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 1em 0.2em;
+}
+.pokekard_stat_name{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.pokekard_stat_name{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
