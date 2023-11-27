@@ -10,9 +10,10 @@
     position: relative;
 }
 .pokekard_image{
+    position: absolute;
     width: 60%;
     left: 50%;
-    transform: translateX(50%);
+    transform: translateX(-50%);
     top: 1.5em;
 }
 .pokekard_body{
@@ -23,7 +24,6 @@
     text-transform: capitalize;
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 0.4em;
 }
 .pokekard_types{
     display: flex;
@@ -54,8 +54,11 @@
     font-weight: 300;
     text-transform: uppercase;
 }
-.pokekard_stat_name{
+.pokekard_stat_value{
     font-weight: 500;
     font-size: 1rem;
+}
+.fire-gradient{
+    background-color: linear-gradient(red);
 }
 
