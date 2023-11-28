@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { setTrainerName } from "../store/slices/trainerName.slice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import '../components/styles/HomePage.css'
 
 const HomePage = () => {
   const inputName = useRef();
@@ -14,10 +15,10 @@ const HomePage = () => {
     navigate("/pokedex");
   };
   return (
-    <div>
-      <h1>pokedex</h1>
-      <h2>hi trainer</h2>
-      <p>for init say your name</p>
+    <div className="Home__div">
+      <h1 className="Home__h1">pokedex</h1>
+      <h2 className="Home__h2">hi trainer</h2>
+      <p className="Home__p">for init say your name</p>
       <form onSubmit={handleSubmit}>
         <input ref={inputName} type="text" />
         <button>chose anywhere pokemom</button>

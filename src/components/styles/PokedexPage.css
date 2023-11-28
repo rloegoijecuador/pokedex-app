@@ -1,0 +1,26 @@
+.div{
+    background-color: steelblue;
+    
+
+}
+.p{
+    font-size: 1.6em;   
+    color: greenyellow;
+    padding: 0.8em;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    height: 2em;
+}
+.input{
+    background-color: greenyellow;
+    border-radius: 1em;
+    color: black;
+}
+.search{
+    background-color: black;
+    border-radius: 1em;
+    color: white;
+}

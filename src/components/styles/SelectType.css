@@ -1,0 +1,9 @@
+.select{
+   
+    background-color: rgb(146, 205, 50);
+    border-radius: 1.5em;
+    padding: 0.8em;
+}
+.option{
+    background-color: darkorange;
+}

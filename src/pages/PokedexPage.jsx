@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFetch";
 import { useEffect, useRef, useState } from "react";
 import PokeCard from "../components/pokedexpage/PokeCard";
 import SelectType from "../components/pokedexpage/SelectType";
-
+import '../components/styles/PokedexPage.css'
 
 const PokedexPage = () => {
   const [inputValue, setinputValue] = useState('')
@@ -38,16 +38,17 @@ const PokedexPage = () => {
 
    }
   return (
-    <div>
-      <p>
+    <div className="div">
+      <p className="p">
         welcome <span>{trainerName}</span> , here choose yuor favorit pokemons 
       </p>
-      <form onSubmit={handleSubmit}>
-        <input ref={inputSearch} type="text" />
-        <button>search</button>
+      <form className="form" onSubmit={handleSubmit}>
+        <input className="input" ref={inputSearch} type="text" />
+        <button className="search">search</button>
       </form>
-      <SelectType
-      setSelectValue={setSelectValue}
+      <SelectType 
+      setSelectValue={setSelectValue } 
+     
       />
       <div>
         {
