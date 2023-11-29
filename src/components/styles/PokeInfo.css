@@ -1,0 +1,10 @@
+.poke_info_h2{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+}
+.poke_info_img{
+    display: grid;
+    justify-content: center;
+    width: 65%;
+}

@@ -1,4 +1,42 @@
+*{
+background-color: steelblue;
+}
 .Home__h1{
-    width: 7em;
-    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 05em;
+    width: 95%;
+    color: darkblue;
+    padding:  0.8em 0 0.6em;
+    
+}
+.Home__h2{
+    display: flex;
+    justify-content: center;
+    padding: 0.3em 0 1em;
+    width: 95%;
+    color: black;
+    font-size: 03em;
+}
+.Home__p{
+    display: flex;
+    justify-content: center;
+    padding: 0em 0 1em;
+    color: darkblue;
+    font-size: 02em;
+}
+.Home__form{
+    display: flex;
+    justify-content: center;
+}
+.Home__input{
+    background-color: rgb(146, 205, 50);
+    width: 15em;
+    border-radius: 1em;
+    color: black;
+}
+.Home__button{
+    background-color: darkblue;
+    color: rgb(146, 205, 50);
+    border-radius: 1em;
 }

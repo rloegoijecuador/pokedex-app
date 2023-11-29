@@ -19,9 +19,9 @@ const HomePage = () => {
       <h1 className="Home__h1">pokedex</h1>
       <h2 className="Home__h2">hi trainer</h2>
       <p className="Home__p">for init say your name</p>
-      <form onSubmit={handleSubmit}>
-        <input ref={inputName} type="text" />
-        <button>chose anywhere pokemom</button>
+      <form className="Home__form" onSubmit={handleSubmit}>
+        <input className="Home__input" ref={inputName} type="text" />
+        <button className="Home__button">chose anywhere pokemom</button>
       </form>
     </div>
   );
